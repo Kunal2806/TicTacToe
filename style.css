@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #6EACDA;
+}
+
+.winnerTab{
+    height: 100vmin;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+#win{
+    color: black;
+    font-size: 10vmin;
+    margin-bottom: 3rem;
+}
+
+.hide{
+    display:none;
+}
+
+.title{
+    height: 50px;
+    color: #021526;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 10vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem #021526;
+}
+
+.reset-div{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-size:larger;
+    border: none;
+    box-shadow: 0 0 1rem #021526;
+}
