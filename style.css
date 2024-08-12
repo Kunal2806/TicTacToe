@@ -48,6 +48,13 @@ body{
     gap: 1.5vmin;
 }
 
+/*media query for widht smaller than 786px (tablets & phones)*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: inherit;
+    }
+}
+
 .box{
     height: 18vmin;
     width: 18vmin;
